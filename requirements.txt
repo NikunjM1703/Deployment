@@ -1,0 +1,17 @@
+# Core Libraries
+streamlit>=1.26.0
+pandas>=1.5.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Optional but recommended for broader model compatibility
+joblib>=1.3.0
+
+# If your model uses AWS S3 or other cloud storage (safe to keep)
+boto3>=1.34.0
+
+# If you use encoding/feature handling libraries in preprocessing (safe to include)
+category-encoders>=2.6.0
+
+# Prevent potential SSL errors on Streamlit Cloud
+requests>=2.31.0
